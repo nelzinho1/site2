@@ -1,0 +1,14 @@
+body {
+background-color: #202631;
+color: white;
+margin: 100px;
+padding: 0;
+text-align: center;
+cursor: pointer;
+
+}
+
+.email {
+
+    margin: 200px;
+}

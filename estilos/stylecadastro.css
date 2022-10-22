@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #202631;
+}
+.box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+       padding: 15px;
+    border-radius: 15px;
+    width: 20%;       
+    background-image: linear-gradient(to right, rgb(54, 131, 167),rgb(17, 54, 71),#202631);
+
+}
+fieldset {
+    border: 3px solid dodgerblue ;
+    
+ 
+}
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center ;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: white;
+}
+.inputbox {
+    position: relative;
+        
+}
+.inputuser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white ;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 2px;
+}
+.labelinput {
+    position: flex;
+    top: 0px;
+    left: 0px;
+     pointer-events: none;
+    transition: .5s;
+    
+    
+}
+
+.inputusers:focus ~ .labelinput, 
+.inputuser:valid ~ .labelinput{
+    top: -20px;
+    color: dodgerblue;
+    font-size: 12px;
+}
+
+input#submit {
+    background-color: dodgerblue;
+    border: 5px solid dodgerblue;
+    border-radius: 13px;
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    cursor: pointer ;
+}
+input#submit:hover {
+    background-image: linear-gradient(to right, rgb(17, 54, 71),#202631);
+}
