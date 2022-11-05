@@ -1,2 +1,3 @@
 # site2
 Site criado para teste de capacidade.
+você pode clonar e fazer testes tambem ...
